@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container {
+  margin-bottom: 30px;
+}
+.profile__user {
+  display: flex;
+  align-items: center;
+}
+
+.user__title {
+  color: orange;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.btn__action {
+  margin-left: 10px;
+  height: 30px;
+  font-weight: 800;
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn__chat {
+  background-color: #fafafa;
+}
+.btn__hire {
+  background-color: yellow;
+  color: black;
+}
